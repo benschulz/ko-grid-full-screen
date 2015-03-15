@@ -1,0 +1,21 @@
+{
+  "name": "ko-grid-full-screen",
+  "main": "dist/ko-grid-full-screen.js",
+  "description": "A ko-grid extension providing a full-screen toggle.",
+  "authors": ["Ben Schulz (https://github.com/benschulz)"],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "ko-grid",
+    "full-screen",
+    "fullscreen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/benschulz/ko-grid-full-screen.git"
+  },
+  "dependencies": {
+    "knockout": "^3.2.0",
+    "ko-grid": "benschulz/ko-grid",
+    "ko-grid-view-modes": "benschulz/ko-grid-view-modes"
+  }
+}

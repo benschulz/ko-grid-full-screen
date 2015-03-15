@@ -1,0 +1,18 @@
+html.contains-full-screen-element {
+  overflow: hidden;
+}
+.full-screen.ko-grid {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.ko-grid-full-screen-label {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM4IiBoZWlnaHQ9IjEzOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNSAwYTUgNSAwIDAgMC01IDV2NDJjMCAzIDYgNyAxMCAzbDEzLTEzIDMyIDMyLTMyIDMyLTEzLTEzYy00LTQtMTAgMC0xMCAzdjQyYTUgNSAwIDAgMCA1IDVoNDJjMyAwIDctNiAzLTEwbC0xMy0xMyAzMi0zMiAzMiAzMi0xMyAxM2MtNCA0IDAgMTAgMyAxMGg0MmE1IDUgMCAwIDAgNS01VjkxYzAtMy02LTctMTAtM2wtMTMgMTMtMzItMzIgMzItMzIgMTMgMTNjNCA0IDEwIDAgMTAtM1Y1YTUgNSAwIDAgMC01LTVIOTFjLTMgMC03IDYtMyAxMGwxMyAxMy0zMiAzMi0zMi0zMiAxMy0xM2M0LTQgMC0xMC0zLTEweiIvPjwvc3ZnPg==");
+  background-size: 14px;
+}
+.ko-grid-full-screen-toggle {
+  margin-left: -50px;
+}
