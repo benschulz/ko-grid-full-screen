@@ -1,7 +1,0 @@
-/*
- Copyright (c) 2015, Ben Schulz
- License: BSD 3-clause (http://opensource.org/licenses/BSD-3-Clause)
-*/
-function g(a,c){return function(d){return d}(function(d,a,e){var h=window.document.documentElement;e.defineExtension("ko-grid-full-screen",{s:["ko-grid-toolbar","ko-grid-view-modes"],t:function(a){a.into("left-toolbar").insert(' <label class="ko-grid-toolbar-button ko-grid-full-screen-label" data-bind="css: { pressed: extensions.fullScreen.__state }">  <input type="checkbox" tabIndex="-1" class="ko-grid-full-screen-toggle" data-bind="checked: extensions.fullScreen.__state" />  Full Screen</label> ')},
-q:function(d,e,b){var f=a.observable(!1);this.__state=f;this.enter=function(){return f(!0)};var c=b.rootElement.classList.contains("fixed-height"),k=f.subscribe(function(a){a?(h.classList.add("contains-full-screen-element"),b.extensions["ko-grid-view-modes"].enter("full-screen",function(){b.rootElement.classList.add("fixed-height")})):(h.classList.remove("contains-full-screen-element"),b.extensions["ko-grid-view-modes"].leave("full-screen",function(){c||b.rootElement.classList.remove("fixed-height")}))});
-this.dispose=function(){return k.dispose()}}});return e.declareExtensionAliases(["fullscreen","fullScreen"],"ko-grid-full-screen")}({},c,a))}"function"===typeof define&&define.amd?define(["ko-grid","knockout","ko-grid-view-modes","ko-data-source","ko-indexed-repeat"],g):window["ko-grid-full-screen"]=g(window.ko.bindingHandlers.grid,window.ko);
